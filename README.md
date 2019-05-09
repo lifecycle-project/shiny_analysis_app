@@ -9,6 +9,6 @@ This shiny app will enable LifeCycle scientists to:
 
 This shiny app will eventually be packed into a container and placed on the central analysis server of LifeCycle, so every LifeCycle collaborator can access it via the web.
 
-<center>
-![FigName](https://github.com/lifecycle-project/shiny_analysis_app/blob/master/lifecycle-large.jpg)
+
+<img src="https://github.com/lifecycle-project/shiny_analysis_app/blob/master/lifecycle-large.jpg"></img>
 </center>
