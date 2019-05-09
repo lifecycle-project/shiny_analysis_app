@@ -1,9 +1,3 @@
----
-title: "LifeCycle Shiny analysis app"
-author: "Sebastian Rauschert"
-date: "8/12/2016"
-output: html_document
----
 # shiny_analysis_app
 
 This shiny app will enable LifeCycle scientists to:
