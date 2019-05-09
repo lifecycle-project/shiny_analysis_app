@@ -39,7 +39,7 @@ ui <- fluidPage(
   )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic required to draw the scatterplot
 server <- function(input, output) {
   
   output$scatter <- renderPlot({
