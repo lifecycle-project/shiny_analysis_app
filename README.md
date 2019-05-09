@@ -1,4 +1,4 @@
-# shiny_analysis_app
+# LifeCycle analysis app
 
 This shiny app will enable LifeCycle scientists to:
 
