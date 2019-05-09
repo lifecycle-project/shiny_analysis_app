@@ -12,7 +12,7 @@ ui <- fluidPage(
   # Application title
   titlePanel("Iris Data"),
   
-  # Sidebar with a slider input for number of bins 
+  # Select variables for Scatterplot and if plot should be colored by 'Species' 
   sidebarLayout(
     sidebarPanel(
       selectInput("variable1","Variable 1:",
@@ -32,7 +32,7 @@ ui <- fluidPage(
       )
     ),
     
-    # Show a plot of the generated distribution
+    # Show a plot 
     mainPanel(
       plotOutput("scatter")
     )
@@ -46,7 +46,8 @@ server <- function(input, output) {
     Variable1 <- input$variable1
     Variable2 <- input$variable2
     strata    <- input$stratifyBy
-    # draw the histogram with the specified number of bins
+    
+    # draw the scatterplot with the selected variables
     
     if(strata %in% "no"){
     ggplot(iris, aes_string(x=Variable1, y=Variable2)) +
